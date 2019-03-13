@@ -22,11 +22,12 @@ Digest: sha256:644fcb1a676b5165371437feaa922943aaf7afcfa8bfee4472f6860aad1ef2a0
 Status: Downloaded newer image for alpine:latest
 Hello World 
 ```
+
 Lets analyse the input(IN)
 
-'docker container run': means hey docker be ready to do what I say
+docker container run: means hey docker be ready to do what I say
 
-'alpine': This is called a container image. Think of it this way when you press Command+Space on MacOS and type 'Terminal' it opens a Terminal, now replace the word 'Terminal' with 'alpine' that is exactly what alpine is.
+alpine: This is called a container image. Think of it this way when you press Command+Space on MacOS and type 'Terminal' it opens a Terminal, now replace the word 'Terminal' with 'alpine' that is exactly what alpine is.
 
 echo "Hello World": is the command that I should run inside 'alpine'
 
