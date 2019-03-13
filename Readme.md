@@ -5,4 +5,4 @@ I was confused a long time with what Docker is and how it works exactly. I am wr
 Consider this: you are following a Tensorflow object-detection tutorial and the instrutor has told you to install Tensorflow 1.2 on your computer. But you have tensorflow 1.7 installed already on your machine and you dont want to downgrade. Docker comes to rescue in this case. Using Docker you can create a container and install all that you need (in this case Tensorflow 1.2). This container will not affect your orignal installation whatsoever.
 
 Start with downloading Docker:
-Download docker from: https://hub.docker.com/editions/community/docker-ce-desktop-mac
+''' Download docker from: https://hub.docker.com/editions/community/docker-ce-desktop-mac '''
