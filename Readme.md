@@ -36,18 +36,17 @@ So to summarise. I opened a new terminal inside docker container and typed the c
 
 Once you assign a task to 'alpine' remember that you need to stop that task other wise it will unnecessarily consume your system memory. In order to stop the task first list on all the tasks with following command: 
 
-``` docker container ls -a ```
+``` docker container ls -a
 
-```
 CONTAINER ID        IMAGE               COMMAND                CREATED             STATUS                      PORTS               NAMES
 cccc42eb6f80        alpine              "echo 'Hello World'"   36 minutes ago      Exited (0) 36 minutes ago                       sharp_noether
 caabb8fdd5d0        hello-world         "/hello"               2 hours ago         Exited (0) 2 hours ago                          heuristic_diffie
 ```
+'docker container rm' will stop it. Tip if its not stopping use: '-f or --force'
 
 ```
 docker container rm cccc42eb6f80
 ```
-'docker container rm' will stop it. Tip if its not stopping use: '-f or --force'
 
 
 
