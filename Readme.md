@@ -23,7 +23,9 @@ I referred https://stackoverflow.com/questions/18497688/run-a-docker-image-as-a-
 
 ### Step1: Get Image ID
 
-```docker images
+```
+docker images
+
 REPOSITORY               TAG                 IMAGE ID            CREATED             SIZE
 mylamour/tesseract-ocr   opencv              f496446c0f47        2 years ago         3.35GB
 ```
