@@ -31,5 +31,5 @@ mylamour/tesseract-ocr   opencv              f496446c0f47        2 years ago    
 ```
 ### Step2: Run
 
-```docker run -i -t 8dbd9e392a96 /bin/bash```
+```docker run -i -t f496446c0f47 /bin/bash```
 
